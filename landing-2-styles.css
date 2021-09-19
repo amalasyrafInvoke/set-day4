@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  border: 1px solid lightgreen;
+  width: 1200px;
+  height: 4000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  width: 15%;
+  margin: 0 2rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.nav-list li {
+  color: lightslategray;
+}
+
+.nav-list li.active {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.nav-btn > * {
+  margin: 0 1.5rem;
+}
+
+.solid-btn {
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.outlined-btn {
+  margin: 2rem 0;
+  border: 2px solid darkseagreen;
+  color: darkseagreen;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.no-outline-btn {
+  color: darkseagreen;
+}
+
+.text-green {
+  color: darkseagreen;
+}
+
+.text-gray {
+  color: grey;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0 25rem;
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-text > * {
+  margin: 1.5rem 0;
+}
+
+.banner-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-btn > * {
+  margin: 0 1rem;
+}
+
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.logo-list > * {
+  margin: 2rem;
+}
+
+#packages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#packages-text {
+  padding: 4rem 7rem;
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#packages-card {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.packages-card-list {
+  box-shadow: 0px 1px 1px 1px grey;
+  height: 265px;
+  width: 220px;
+  padding: 30px 30px;
+  margin: 15px 0;
+}
+
+.packages-card-list img {
+  margin: 5px 0;
+}
+
+.horizontal-line {
+  background-color: orange;
+  width: 75px;
+  height: 2px;
+  margin: 20px 0;
+}
+
+.packages-active .horizontal-line {
+  background-color: white;
+}
+
+.packages-active {
+  background-color: darkseagreen;
+}
+
+.small-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.small-banner-text {
+  width: 50%;
+  height: 400px;
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.small-banner-text p {
+  color: lightslategray;
+}
+
+#teachers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: honeydew;
+  padding: 2rem 0;
+}
+
+#teachers-text {
+  padding: 4rem 7rem;
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#teachers-card {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.teachers-card-list {
+  height: 550px;
+  width: 250px;
+  background-color: white;
+}
+
+.teachers-card-list img {
+  width: 250px;
+}
+
+.teachers-card-text {
+  padding: 10px 15px;
+}
+
+.teachers-card-text > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rating-pills {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: darkslategray;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.btn-pills {
+  border-radius: 25px;
+  padding: 10px 25px;
+  width: 160px;
+}
