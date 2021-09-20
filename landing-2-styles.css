@@ -9,7 +9,7 @@
 .container {
   border: 1px solid lightgreen;
   width: 1200px;
-  height: 5000px;
+  height: auto;
   margin: 0 auto;
 }
 
